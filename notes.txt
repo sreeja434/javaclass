@@ -1,0 +1,352 @@
+15th July
+=========
+
+    -> Java Backend
+
+        -> Core Java ( Language Fundamentals ) - 60% 
+
+        -> Advance Java ( MT, EH, Collections Framework, SQL, RDBMS ) - 20%
+
+        -> Spring Framework / Spring Boot (API's - Micro Services) - 20%
+
+    -> Java 
+
+        -> Programming Language
+
+    -> Language ?
+
+            -> Communication (Verbal, Written, Gestures etc)
+
+            -> Languages Constructed ?
+
+                -> Regions (South India - North India etc)
+
+            -> Human to Human (English, Hindi, Telugu etc)
+
+    -> Programming ?
+
+        -> Set Of Rules / Instructions
+
+            -> TASK 
+
+    -> Programming Language
+
+        -> Set Of Instructions To Perform TASK
+
+    -> Javascript, Java, Python, C etc
+
+    -> Based On Domains 
+
+    -> Java vs Python 
+
+        -> Java is performance oriented (FASTEST) --> COMPILED 
+
+        -> Python is performance oriented (FAST) --> INTERPRETED
+
+        -> Build An Application (Java -> 6 Months)  (Run Faster)
+        -> Build An Python      (Python -> 6 Weeks) (Develop Faster)
+    
+    -> How Many ways you can Perform a TASK(Programming) ?
+
+        -> Programming paradigms are fundamental styles or approaches used 
+            in computer programming to solve problems.
+
+        -> Imperative Programming Language
+
+            -> How To Do 
+
+            -> Java is Imperative Programming Language
+
+        -> Declarative Programming Language
+
+            -> What To Do 
+
+            -> SQL is Declarative Programming Language
+
+        -> High Level
+
+        -> Low Level
+
+            01101010 01100001 01110110 01100001 00100000 01101001 
+            01110011 00100000 01100010 01100101 01110011 01110100
+
+        -> Myntra Application
+
+            brandName = The Indian Garage Co
+            ratings = 4.2
+            price = 750
+            size = 36
+
+            System.out.println(" The Brand is "+brandName+ " has ratings"+ratings)
+
+            -> On the Object Level
+
+            -> Object -> Screen, Table,  
+
+16th July
+=========
+
+    -> Install Java (21 LTS)
+
+    -> Install VS Code (IDE - Integrated Development Environment)
+
+    -> GitHub (Platform To Store Code and Collaborate)
+
+    -> Git (Client To Enable Tracking)
+
+    -> Version Control / Source Control / Revision Control
+
+        -> Keep Track Of Changes(Programs, Website files, any file)
+
+    -> Install Git On Your Laptop  
+
+    -> Setup GitHub Account
+
+17th July
+=========
+
+    -> Java Compiler (javac)
+
+    -> Java Interprter (java)
+
+    -> JVM - JRE - JDK
+
+        -> JVM - Java Virtual Machine
+
+            -> Converts Byte Code To Machine Code
+
+            -> Java Platform Independent (JVM)
+
+        
+        -> JRE - Java Runtime Environment
+
+            -> In Servers we use JRE 
+
+            -> JRE is used to RUN JAVA PROGRAMS / APPS
+
+            -> JRE is NOT used to DEVELOP JAVA PROGRAMS / APPS
+
+        -> JDK - Java Development Kit
+
+            -> In Developer Laptops we use JDK
+
+            -> JDK Contains various utilities to Develop & Run Java Programs
+
+    -> W.R.T Hello World Program (App.java)
+
+        -> JDK : You Write Java Code Using JDK Tools (java)
+
+        -> JRE : You Compile Java Code Using JRE (javac)
+
+        -> JVM : Reads .class file i.e Byte Code and Gives it to OS for execution
+
+18th July
+=========
+
+    -> Variables
+
+        -> Store the values ?
+
+            -> To retrieve data 
+            -> To perform some operations on data
+            -> To Store data
+
+        -> brand
+        -> description
+        -> ratings
+        -> price 
+
+        -> Data you want to store, you need to specify data type
+            -> above approach is called as Static Typed/Strict Typed
+
+        -> Data Type is classification of data
+
+            -> Primitive Data types 
+
+                -> Fundamental data types, which are prebuilt to store numbers, decimals,
+                    characters, symobols, true and false
+
+                        -> byte
+                        -> short
+                        -> int
+                        -> long
+                        -> float
+                        -> double
+                        -> char
+                        -> boolean
+
+
+            -> Non-Primitive Data types
+
+                -> Either we can use already defined by java, Strings, Arrays, Collections, Interfaces etc
+
+                -> As a user you can create your own data types as well
+                    Student, Employee, Company etc  
+    
+    -> NOTE : The local variable someDataNew2 may not have been initialized
+
+    -> We have Instance Variables, Local Variables & Satic Variables 
+
+        -> For any kind of Variables we work with, we need to specify Datatype
+
+    -> Based on the data type we select, default values are applicable
+
+21st July
+=========
+
+    -> Type Conversion & Type Casting
+
+        -> Convert One Datatype to Another Datatype
+
+    -> Type Conversion 
+
+        -> Automatic / Implicit - is done by java Compiler, when Conversion is considered SAFE
+
+        -> NO LOSS OF DATA (SAFE)
+
+        -> WIDENING / Implicit Conversion / Type Conversion
+
+    -> Type Casting 
+
+        -> Manual / Explicit - is done by developer, when Conversion is considered UNSAFE
+
+        -> LOSS OF DATA (UNSAFE)
+
+        -> NARROWING / Explicit Conversion / Type Casting
+
+        -> To Perform Casting we need to keep target datatype in parentheses (int) before value
+
+    -> Incompatible Conversions
+
+        -> Text To Number or Number To Text (Possible)
+
+        -> https://docs.oracle.com/javase/specs/jls/se8/html/jls-5.html#jls-5.5
+
+
+22nd July
+=========
+
+    -> Variables 
+        -> Store the Data
+        -> Retrieve the Data
+        -> Manipulate the Data(Operators)
+
+    -> Operators    
+
+        -> Special Symbols, perform operations on Variables & Value
+
+            -> Values - Operands
+            -> Symbols - Operators
+        
+    -> Types Of Operators
+
+        -> Arithmetic Operators
+
+            -> For Mathematical Calculation
+                + - * / % 
+
+        -> Increment / Decrement Operators
+
+            -> To Increase or Decrease the value by 1
+            -> Mostly used in Loops(repeated actions)
+            -> Increment ++ (pre/post)   
+            -> Decrement -- (pre/post)   
+
+        -> Compound Assignment Operators
+
+            -> Assignment Operator is =
+
+            -> Compound Assignment Operators 
+            Used to perform Arithmetic operations in concise(short) form
+
+            -> Compound Assignment Operators
+                +=, -=, *=, /=, %=
+
+            -> x = x + 5(long form) or x += 5 (short form)
+
+        -> Relational Operators (Comparison)
+
+            -> Used to compare values and return true/false(boolean)
+
+            -> Mostly used in conditional checks
+
+            -> ==, !=, >, <, >=, <=
+
+        -> Logical Operators
+
+            -> Used to combine multiple conditionals
+
+            -> Used to compare values and return true/false(boolean)  
+
+            -> Mostly used in conditional checks
+
+            -> && (AND) - returns true, if both(multiple) conditions are true
+            -> || (OR)  - returns true, if one of the conditions is true
+            -> ! (NOT)  - inverts, true is false and false is true
+
+            X       Y       X && Y      X || Y      !X      !Y
+            T       T         T            T         F       F
+            T       F         F            T         F       T    
+            F       T         F            T         T       F
+            F       F         F            F         T       T
+
+
+        -> Bitwise Operators
+
+            -> Used To Perform operations On Binary Bits (01)
+
+            -> Mostly used in low level programming 
+
+                -> Embedded Systems, Network Programming, OS Level etc
+
+            -> & (AND) - Sets each bit to 1, if both the bits are 1   
+            -> | (OR) - Sets each bit to 1, if one of the bits is 1
+            -> ^ (XOR) - Sets each bit to 1, if only one of the bits is 1
+                       - if both values are different then output is 1
+                       - if both values are same then output is 0
+            -> ~ (NOT) (tilde) - Inverts the bits (0 becomes 1 and 1 becomes 0)
+            -> << (Left Shift) 
+                -> Moves the bits left specified by number of positions, let the leftmost
+                bits falls off (pushing zeros in from right)
+            -> >> (Right Shift)
+                -> Moves the bits right specified by number of positions, let the rightmost
+                bits falls off (pushing zeros in from left)
+
+
+23rd July
+=========
+
+    -> Operators LAB With LMS Scenario
+
+    -> Control Structures / Statements
+
+        -> In Java Control Structures are used to 
+        control the flow of execution in a program
+
+        -> We have three categories for Control Structures
+
+            -> Decision Making Statements (Conditional Statements)
+
+                -> if 
+                -> if-else
+                -> else if ladder
+                -> switch 
+
+            -> Looping Statements (Iteration Statements)
+
+                -> while
+                -> do while
+                -> for
+
+            -> Branching Statements (Jump Statements)
+
+                -> break
+                -> continue
+                -> return
+
+
+
+
+
+
+
